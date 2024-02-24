@@ -1,0 +1,107 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+}
+
+body {
+    font-family: 'Raleway';
+}
+
+a {
+    color: #ffffff;
+    font: normal normal 300 20px/24px Raleway;
+}
+
+header {
+    justify-content: center;
+    align-items: center;
+    font: normal normal medium 50px/59px Raleway;
+    height: 73px;
+}
+
+.seccion {
+    display: flex;
+}
+
+.seccion:hover {
+    border: 2px solid blue;
+}
+
+.seccion img {
+    width: 100%;
+    height: auto;
+}
+
+.seccion > div {
+    flex: 1;
+    padding: 45px 150px 66px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font: normal normal 300 16px/19px Raleway;
+}
+
+#caracteristicas {
+    background-color: #1e1a13;
+    height: 348px;
+    padding: 74px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font: normal normal medium 40px/47px Raleway;
+}
+
+.icon_description ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+}
+
+.icon_description li {
+    margin-left: 326px;
+    text-align: center;
+    font: normal normal 300 25px/30px Raleway;
+}
+
+/* Establecer el tamaño de los iconos */
+.icon_description li i {
+    font-size: 200%;
+}
+
+/* Aplicar margen solo al último elemento de la lista*/
+.icon_description li:last-child {
+    margin-right: 265px;
+}
+
+/* Añadir espacio entre el icono y el texto */
+.icon_description li i {
+    margin-bottom: 16px;
+}
+
+.icon_description li p {
+    margin-top: 16px;
+}
+
+#fotos {
+    display: flex;
+    height: auto;
+    padding: 73px 150px;
+}
+
+#fotos img {
+    margin: 0 16px;
+    width: 30%;
+    height: auto;
+}
+
+footer.seccion {
+    background-color: #1e1a13;
+    justify-content: center;
+    align-items: center;
+    font: normal normal 300 20px/24px Raleway;
+    height: 102px;
+}

@@ -1,18 +1,22 @@
+/* Estilos cuerpo de pagina, colores */
 body {
     background-color: #000000;
     color: #ffffff;
     margin: 0;
 }
 
+/* Estilos cuerpo fuente de las letras */
 body {
     font-family: 'Raleway';
 }
 
+/* Estilo del enlace */
 a {
     color: #ffffff;
     font: normal normal 300 20px/24px Raleway;
 }
 
+/* Estilos del encabezado */
 header {
     justify-content: center;
     align-items: center;
@@ -20,14 +24,17 @@ header {
     height: 73px;
 }
 
+/* Estilo de la seccion principal */
 .seccion {
     display: flex;
 }
 
+/* Color del marco de la seccion al apuntarlo */
 .seccion:hover {
     border: 2px solid blue;
 }
 
+/* Estilos seccion con la desccripcion */
 .seccion img {
     width: 100%;
     height: auto;
@@ -42,6 +49,7 @@ header {
     font: normal normal 300 16px/19px Raleway;
 }
 
+/* Estilos seccion Caracteristicas */
 #caracteristicas {
     background-color: #1e1a13;
     height: 348px;
@@ -72,7 +80,7 @@ header {
     font-size: 200%;
 }
 
-/* Aplicar margen solo al último elemento de la lista*/
+/* Aplicar margen solo al ultimo elemento de la lista */
 .icon_description li:last-child {
     margin-right: 265px;
 }
@@ -86,6 +94,7 @@ header {
     margin-top: 16px;
 }
 
+/* Estilos seccion fotos */
 #fotos {
     display: flex;
     height: auto;
@@ -98,6 +107,7 @@ header {
     height: auto;
 }
 
+/* Estilos del pie de pagina */
 footer.seccion {
     background-color: #1e1a13;
     justify-content: center;

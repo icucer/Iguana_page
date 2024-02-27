@@ -25,22 +25,22 @@ header {
 }
 
 /* Estilo de la seccion principal */
-.seccion {
+.desc-seccion {
     display: flex;
 }
 
 /* Color del marco de la seccion al apuntarlo */
-.seccion:hover {
+.desc-seccion:hover {
     border: 2px solid blue;
 }
 
 /* Estilos seccion con la desccripcion */
-.seccion img {
+.desc-seccion img {
     width: 100%;
     height: auto;
 }
 
-.seccion > div {
+.desc-seccion > div {
     flex: 1;
     padding: 45px 150px 66px 150px;
     display: flex;
@@ -61,7 +61,7 @@ header {
     font: normal normal medium 40px/47px Raleway;
 }
 
-.icon_description ul {
+.icon_seccion ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
@@ -69,28 +69,28 @@ header {
     justify-content: space-between;
 }
 
-.icon_description li {
+.icon_seccion li {
     margin-left: 326px;
     text-align: center;
     font: normal normal 300 25px/30px Raleway;
 }
 
 /* Establecer el tamaño de los iconos */
-.icon_description li i {
+.icon_seccion li i {
     font-size: 200%;
 }
 
 /* Aplicar margen solo al ultimo elemento de la lista */
-.icon_description li:last-child {
+.icon_seccion li:last-child {
     margin-right: 265px;
 }
 
 /* Añadir espacio entre el icono y el texto */
-.icon_description li i {
+.icon_seccion li i {
     margin-bottom: 16px;
 }
 
-.icon_description li p {
+.icon_seccion li p {
     margin-top: 16px;
 }
 
@@ -108,7 +108,7 @@ header {
 }
 
 /* Estilos del pie de pagina */
-footer.seccion {
+footer.desc-seccion {
     background-color: #1e1a13;
     justify-content: center;
     align-items: center;
